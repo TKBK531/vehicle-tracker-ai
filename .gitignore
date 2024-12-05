@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env
+
+# Distribution/packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.coverage
+coverage.xml
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project specific
+resources/*
+!resources/.gitkeep
+detected_vehicles.json
+vehicle_analysis.txt
+yolov8n.pt
+
+# Model weights and data files
+*.pt
